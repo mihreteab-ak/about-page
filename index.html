@@ -12,8 +12,8 @@
                 color: black;
             }
             .logo {
-                width: 38px;
-                height: 38px;
+                width: 45px;
+                height: 45px;
             }
             .navcontainer {
                 display: flex;
@@ -24,28 +24,91 @@
                 display: flex;
                 align-items: center;
             }
-                
+            .active
+            {
+                background-color: aliceblue;
+                border-radius: 30px;
+            }
         </style>
-        
     </head>
-    <body class="">
+
+    <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary navcontainer">
             <div class="container-fluid horizontal">
-                <div class="nav-left">
-                    <a class="navbar-brand" href="#"><h1>RoboShop</h1></a>
-                    <a class="navbar-brand" href="#">
-                      <img src="logo-magnified.png" class="logo" alt="Bootstrap">
-                    </a>
-                    <a class="nav-item nav-link">Home</a>
-                    <a class="nav-item nav-link active left" aria-current="page" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Sell</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
-                </div>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+            <div class="nav-left">
+                <a class="navbar-brand" href="#"><h1>RoboShop</h1></a>
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo-magnified.png" class="logo" alt="Bootstrap">
+                </a>
+                <a class="nav-item nav-link">Home</a>
+                <a class="nav-item nav-link active left" aria-current="page" href="#">About</a>
+                <a class="nav-item nav-link" href="#">Sell</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+            </div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
             </div>
         </nav>
+
+        <main>
+            <div class="container">
+                <br><br>
+                <div class="row">
+                    <div class="col-sm">
+                        <h2>Welcome to RoboShop</h2>
+                        <p>
+                            Where innovation meets automation! Our journey began with a passion for pushing the boundaries of technology and redefining the way we interact with the world. At RoboShop, we believe in the transformative power of robotics to simplify tasks, enhance efficiency, and elevate human experiences.
+                        </p>
+                        
+                    </div>
+                    <div class="col-sm">
+                        <img src="./images/robot-waving-hand.png" width="550px">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="./images/cute-robots.png" width="550px">
+                    </div>
+                    <div class="col-sm">
+                        <br>
+                        <h2>Who We Are</h2>
+                        <p>
+                            RoboShop is not just a destination for cutting-edge robotics; we are a community of enthusiasts, engineers, and dreamers who share a common vision - to make robotics accessible to everyone. Whether you're a seasoned professional or a curious beginner, we invite you to explore the limitless possibilities that robotics has to offer.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <br><br>
+                <div class="row">
+                    <div class="col-sm">
+                        <h2>Our Mission</h2>
+                        <p>
+                            At RoboShop, our mission is to empower individuals and businesses with the latest and most advanced robotic technologies. We strive to be a one-stop destination for all your robotics needs, providing a curated selection of high-quality robots, components, and accessories. We aim to inspire creativity, foster innovation, and drive the robotics revolution forward.
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <img src="./images/robot-infront-of-screen.png" width="550">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <p class="col-md-4 mb-0 text-muted">© 2024 RoboShop, Inc</p>
+                <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                    <img src="./images/logo.png" width="120px">
+                </a>
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sell</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+                </ul>
+            </footer>
+        </div>
     </body>
 </html>
